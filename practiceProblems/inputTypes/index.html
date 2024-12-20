@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio/Video</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="container">
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website">
+    </div>
+    <div class="container">
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+    </div>
+    <div class="container">
+        <label for="appointment-time">Time:</label>
+        <input type="time" id="appointment-time" name="appointment-time">
+    </div>
+    <div class="container">
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="10">
+    </div>
+    <div class="container">
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </div>
+    <div>
+        <label for="browser">Choose datalist options</label>
+        <input list="browsers" id="browser" name="browser" placeholder="Type or select">
+        <datalist id="browsers">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Microsoft Edge">
+            <option value="Safari">
+            <option value="Opera">
+        </datalist>
+    </div>
+</body>
+</html>
