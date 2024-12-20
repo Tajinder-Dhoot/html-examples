@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio/Video</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div>
+        <h2>Object fit: contain</h2>
+        <ul>
+            <li>content is scaled to fit within the container</li>
+            <li>maintains aspect ratio</li>
+            <li>there may be some empty space</li>
+        </ul>
+        <div class="image-div">
+            <img class="image-contain"
+                src="/assets/images/pup1.jpg" 
+                alt="puppy"
+            >
+        </div>
+    </div>
+
+    <div>
+        <h2>Object fit: cover</h2>
+        <ul>
+            <li>content is scaled to cover the container</li>
+            <li>maintains aspect ratio</li>
+            <li>some content mihght be cropped</li>
+        </ul>
+        <div class="image-div">
+            <img class="image-cover"
+                src="/assets/images/pup1.jpg" 
+                alt="puppy"
+            >
+        </div>
+    </div>
+
+    <div>
+        <h2>Object fit: fill</h2>
+        <ul>
+            <li>content is scaled to fit within the container</li>
+            <li>potentially distorts aspect ratio</li>
+        </ul>
+        <div class="image-div">
+            <img class="image-fill"
+                src="/assets/images/pup1.jpg" 
+                alt="puppy"
+            >
+        </div>
+    </div>
+
+    <div>
+        <h2>Object fit: none</h2>
+        <ul>
+            <li>The content retains its original size</li>
+            <li>maintains aspect ratio</li>
+            <li>not resized to fit the container</li>
+        </ul>
+        <div class="image-div">
+            <img class="image-none"
+                src="/assets/images/pup1.jpg" 
+                alt="puppy"
+            >
+        </div>
+    </div>
+
+    <div>
+        <h2>Object fit: scale-down</h2>
+        <ul>
+            <li>The content is scaled down to the smaller of either contain or none.</li>
+        </ul>
+        <div class="image-div">
+            <img class="image-scale"
+                src="/assets/images/pup1.jpg" 
+                alt="puppy"
+            >
+        </div>
+    </div>
+</body>
+</html>
